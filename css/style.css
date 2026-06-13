@@ -151,8 +151,15 @@ textarea{
 padding:15px;
 border:2px solid #475569;
 border-radius:10px;
-color: #cbd5e1;
+color: #111827;
+background: #ffffff;
 }
+input::placeholder,
+textarea::placeholder{
+    color: #374151;
+    opacity: 1;
+}
+
 
 textarea{
 height:120px;
@@ -191,6 +198,9 @@ margin:15px 0;
 label{
     color:#ffffff;
     font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text);
 }
 
 .project-card h4{
