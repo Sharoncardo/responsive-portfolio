@@ -75,16 +75,19 @@ margin-bottom:30px;
   gap:15px;
   flex-wrap:wrap;
 }
-
 .btn{
-background:var(--primary);
-color:white;
+background:#0284c7;
+color:#ffffff;
 padding:12px 24px;
 border-radius:10px;
 text-decoration:none;
 font-weight:600;
+display:inline-block;
 }
 
+.btn:hover{
+background:#0369a1;
+}
 .secondary{
 margin-left:10px;
 }
@@ -206,4 +209,7 @@ padding-left:20px;
 .about-list li{
 margin-bottom:12px;
 font-size:1rem;
+}
+:root{
+    --primary:#0369a1;
 }
