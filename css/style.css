@@ -76,7 +76,7 @@ margin-bottom:30px;
   flex-wrap:wrap;
 }
 .btn{
-background:#0284c7;
+background:#075985;
 color:#ffffff;
 padding:12px 24px;
 border-radius:10px;
@@ -149,9 +149,9 @@ gap:15px;
 input,
 textarea{
 padding:15px;
-border:none;
+border:2px solid #475569;
 border-radius:10px;
-color: #96d8ef;
+color: #cbd5e1;
 }
 
 textarea{
@@ -187,6 +187,10 @@ margin:15px 0;
 
 .project-card h3{
   margin-bottom: 15px;
+}
+label{
+    color:#ffffff;
+    font-weight: 500;
 }
 
 .project-card h4{
